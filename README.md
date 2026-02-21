@@ -24,11 +24,11 @@ You will learn how to:
 
 ## Learning Outcomes (By the end you can…)
 
-✅ Explain why `draw()` is used for animation  
-✅ Move shapes using variables and speed  
-✅ Bounce shapes using edge checks  
-✅ Control objects using keyboard input  
-✅ Create a mini interactive animation/game scene  
+Explain why `draw()` is used for animation  
+Move shapes using variables and speed  
+Bounce shapes using edge checks  
+Control objects using keyboard input  
+Create a mini interactive animation/game scene  
 
 ---
 
@@ -138,7 +138,7 @@ void draw() {
 - `ellipse(x, height/2, 30, 30);` → draws a circle in the middle.
 - `x = x + 4;` → each frame, x increases → circle moves.
 
-✅ **Check you got it right:**
+**Check you got it right:**
 
 - The dot moves to the right continuously.
 
@@ -234,7 +234,7 @@ void keyPressed() {
 - `keyPressed()` runs when a key is pressed.
 - `trails = !trails;` flips the value (false → true, true → false).
 
-✅ **Check**
+**Check**
 
 - Dot loops from left again when it goes out.
 - Press **T** → trails appear/disappear.
@@ -300,7 +300,7 @@ void keyPressed() {
 - `xs *= -1;` means reverse direction.
 - We use `width - r` so the ball edge doesn’t go out of screen.
 
-✅ **Check**
+**Check**
 
 - Orb bounces on all walls
 - `+` makes it faster, `-` makes it slower
@@ -347,7 +347,7 @@ void draw() {
 - `keyCode` checks arrow keys.
 - `constrain(value, min, max)` keeps it in range.
 
-✅ **Check:**
+**Check:**
 
 - Player moves in all 4 directions
 - Never goes outside the window
@@ -421,7 +421,7 @@ void draw() {
 
 ## Explanation
 
-✅ **Check:**
+**Check:**
 
 - Helper follows smoothly, not instantly.
 
@@ -503,7 +503,7 @@ void keyPressed() {
 
 ## Explanation
 
-✅ **Check:**
+**Check:**
 
 - ENTER starts  
 - Timer counts down  
@@ -551,7 +551,7 @@ A mini game with:
 
 ---
 
-## 🎉 Good Luck & Enjoy Coding!
+##  Good Luck & Enjoy Coding!
 
 ```text
    ⭐     ⭐       ⭐

@@ -536,7 +536,7 @@ A mini game with:
 
 ---
 
-## 🎉 Good Luck & Enjoy Coding!
+##  Good Luck & Enjoy Coding!
 
 ```text
    ⭐     ⭐       ⭐

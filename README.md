@@ -1,12 +1,12 @@
 # SE3011-Technical-Evolution-of-Multimedia-Lab05
 
-# In-Class Lab (2 Hours) — Processing: Animation Basics (Self-Guided, Very Detailed)
+# In-Class Lab (2 Hours) — Processing: Animation Basics (Self-Guided)
 
 **Module:** Animation Basics (Processing)  
 **Duration:** 2 hours (120 minutes)  
 **Goal:** By doing small tasks step-by-step, you will learn how animation works in Processing and finally build a small mini-game.
 
-## What you’ll learn (in simple words)
+## What you’ll learn
 
 You will learn how to:
 

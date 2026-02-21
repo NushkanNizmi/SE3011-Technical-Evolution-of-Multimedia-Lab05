@@ -1,8 +1,7 @@
 # SE3011-Technical-Evolution-of-Multimedia-Lab05
 
-# In-Class Lab (2 Hours) — Processing: Animation Basics (Self-Guided)
+# In-Class Lab — Processing: Animation Basics (Self-Guided)
 
-**Module:** Animation Basics (Processing)  
 **Duration:** 2 hours (120 minutes)  
 **Goal:** By doing small tasks step-by-step, you will learn how animation works in Processing and finally build a small mini-game.
 
@@ -24,11 +23,11 @@ You will learn how to:
 
 ## Learning Outcomes (By the end you can…)
 
-Explain why `draw()` is used for animation  
-Move shapes using variables and speed  
-Bounce shapes using edge checks  
-Control objects using keyboard input  
-Create a mini interactive animation/game scene  
+- Explain why `draw()` is used for animation  
+- Move shapes using variables and speed  
+- Bounce shapes using edge checks  
+- Control objects using keyboard input  
+- Create a mini interactive animation/game scene  
 
 ---
 
@@ -77,26 +76,12 @@ When `draw()` runs again, the old drawing is still there unless we clear it.
 - `y` increases **downwards**
 - `width` = screen width, `height` = screen height
 
----
-
-# Suggested Timeline (2 hours)
-
-- **0–10 min:** Activity 1  
-- **10–30 min:** Activity 2  
-- **30–55 min:** Activity 3  
-- **55–70 min:** Activity 4  
-- **70–90 min:** Activity 5  
-- **90–105 min:** Activity 6  
-- **105–120 min:** Final Task
 
 
 
 ---
 
-
----
-
-# Activity 1 (10 minutes) — Moving Dot (Your first animation)
+# Activity 1  — Moving Dot (Your first animation)
 
 ## Goal
 Make a small circle move from left to right.
@@ -130,7 +115,7 @@ void draw() {
 ```
 
 
-## Explanation (line by line)
+## Explanation
 
 - `float x = 0;` → `x` is a number that can increase smoothly.
 - `size(700, 350);` → creates the window.
@@ -138,7 +123,7 @@ void draw() {
 - `ellipse(x, height/2, 30, 30);` → draws a circle in the middle.
 - `x = x + 4;` → each frame, x increases → circle moves.
 
-**Check you got it right:**
+ **Check you got it right:**
 
 - The dot moves to the right continuously.
 
@@ -150,7 +135,7 @@ void draw() {
 
 ---
 
-# Activity 2 (20 minutes) — Looping Motion + Trail Toggle
+# Activity 2 — Looping Motion + Trail Toggle
 
 ## Goal
 
@@ -234,14 +219,14 @@ void keyPressed() {
 - `keyPressed()` runs when a key is pressed.
 - `trails = !trails;` flips the value (false → true, true → false).
 
-**Check**
+ **Check**
 
 - Dot loops from left again when it goes out.
 - Press **T** → trails appear/disappear.
 
 ---
 
-# Activity 3 (25 minutes) — 2D Bouncing Orb + Speed Control (+ / -)
+# Activity 3 — 2D Bouncing Orb + Speed Control (+ / -)
 
 ## Goal
 
@@ -300,14 +285,14 @@ void keyPressed() {
 - `xs *= -1;` means reverse direction.
 - We use `width - r` so the ball edge doesn’t go out of screen.
 
-**Check**
+ **Check**
 
 - Orb bounces on all walls
 - `+` makes it faster, `-` makes it slower
 
 ---
 
-# Activity 4 (15 minutes) — Keyboard Controlled Player (Arrow keys)
+# Activity 4 — Keyboard Controlled Player (Arrow keys)
 
 ## Goal
 
@@ -347,14 +332,14 @@ void draw() {
 - `keyCode` checks arrow keys.
 - `constrain(value, min, max)` keeps it in range.
 
-**Check:**
+ **Check:**
 
 - Player moves in all 4 directions
 - Never goes outside the window
 
 ---
 
-# Activity 5 (20 minutes) — Helper Dot Follows Player Using Easing
+# Activity 5 — Helper Dot Follows Player Using Easing
 
 ## Goal
 
@@ -421,13 +406,13 @@ void draw() {
 
 ## Explanation
 
-**Check:**
+ **Check:**
 
 - Helper follows smoothly, not instantly.
 
 ---
 
-# Activity 6 (15 minutes) — Timer + Game States (Start / Play / End)
+# Activity 6 — Timer + Game States (Start / Play / End)
 
 ## Goal
 
@@ -503,7 +488,7 @@ void keyPressed() {
 
 ## Explanation
 
-**Check:**
+ **Check:**
 
 - ENTER starts  
 - Timer counts down  
@@ -512,7 +497,7 @@ void keyPressed() {
 
 ---
 
-# FINAL TASK (15 minutes) — Catch the Orb (Enhanced 2-Hour Version)
+# FINAL TASK — Catch the Orb (Enhanced 2-Hour Version)
 
 ## Goal (What you must build)
 
